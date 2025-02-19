@@ -1,0 +1,3 @@
+# Stack Overflow in Hack Recursive Function
+
+This repository demonstrates a common error in recursive functions written in Hack: unbounded recursion leading to a stack overflow.  The example shows a factorial function that lacks a proper base case, causing it to call itself infinitely for larger inputs. The solution adds the missing base case and the improved function handles inputs correctly.  This example is useful for understanding and preventing stack overflow errors in recursive functions.
